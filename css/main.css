@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 3rem;
+  padding-left: 30px;
+}
+nav .icons {
+  display: flex;
+  gap: 20px;
+  padding-right: 30px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+nav .icons button:hover {
+  transform: scale(1.2);
+}
+
+article {
+  width: 100%;
+  color: #7C6A0A;
+  padding: 0 30px;
+  display: flex;
+  margin-top: 30px;
+}
+article .impact-section {
+  width: 50%;
+}
+article .impact-section h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 7.8rem;
+}
+article .impact-section p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+}
+article .impact-section button {
+  width: 261px;
+  height: 73px;
+  background-color: #FA9500;
+  color: #FFEFE7;
+  border-radius: 35px;
+  border: none;
+  margin-top: 109px;
+  /*estilo de fuente del boton*/
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+article .impact-section button:hover {
+  transform: scale(1.1);
+}
+article .image-section {
+  width: 50%;
+}
+article .image-section img {
+  width: 25vw;
+  border-radius: 20px;
+  margin-left: 223px;
+}
+
+.section-cuidado-salud, .section-decoration-home {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  justify-items: center;
+  row-gap: 60px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  margin: 0 auto;
+}
+
+.product-section {
+  width: 100%;
+  height: auto;
+  margin-top: 131px;
+  padding: 0px 30px;
+}
+.product-section .healthcare h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  color: #7C6A0A;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  margin-bottom: 60px;
+}
+.product-section .healthcare .product-card {
+  background-color: #FFDAC6;
+  width: 224px;
+  height: 402px;
+  padding: 0px 41px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #727272;
+}
+.product-section .healthcare .product-card svg {
+  margin-top: 15px;
+  margin-bottom: 17px;
+  margin-left: 130px;
+}
+.product-section .healthcare .product-card .product-card-image img {
+  width: 141.01px;
+  height: 199.64px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.product-section .healthcare h3 {
+  color: #7C6A0A;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+}
+.product-section .healthcare p {
+  color: #7C6A0A;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.product-section .furniture h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  color: #7C6A0A;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  margin-bottom: 60px;
+  margin-top: 73px;
+}
+.product-section .furniture .product-card {
+  background-color: #BABD8D;
+  width: 224px;
+  height: 402px;
+  padding: 0px 41px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px #727272;
+}
+.product-section .furniture .product-card svg {
+  margin-top: 15px;
+  margin-bottom: 17px;
+  margin-left: 130px;
+}
+.product-section .furniture .product-card h3 {
+  color: white;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+}
+.product-section .furniture .product-card p {
+  color: white;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.product-section .furniture .product-card .product-card-image img {
+  width: 141.01px;
+  height: 199.64px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.about-us h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  color: #7C6A0A;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+.about-us .about-us--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.about-us .about-us--content .earth {
+  display: flex;
+}
+.about-us .about-us--content .earth .tierra-imagen img {
+  width: 158px;
+  height: 139px;
+}
+.about-us .about-us--content .earth p {
+  width: 262px;
+  height: 139px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  text-align: center;
+  color: #E86424;
+  margin-right: 50px;
+}
+.about-us .about-us--content .innovation {
+  display: flex;
+  align-items: center;
+}
+.about-us .about-us--content .innovation p {
+  width: 262px;
+  height: 139px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  text-align: center;
+  color: #E86424;
+  padding-top: 20px;
+}
+
+.gallery h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  color: #7C6A0A;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+.gallery .triptico {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.gallery .triptico .gallery-image img {
+  width: 296px;
+  height: 298px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+.gallery .triptico .gallery-image img:hover {
+  transform: scale(1.1);
+}
+
+.location {
+  margin-bottom: 40px;
+}
+.location h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  color: #7C6A0A;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+.location .location-img {
+  display: flex;
+  justify-content: center;
+}
+.location .location-img img {
+  width: 900px;
+  height: 396px;
+  margin-bottom: 20px;
+}
+.location h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: #E86424;
+  padding-left: 180px;
+}
+.location p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #E86424;
+  padding-left: 180px;
+}
+
+footer {
+  background: #FA9500;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 30px;
+}
+footer h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 15px;
+}
+footer p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */
